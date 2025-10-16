@@ -1,0 +1,82 @@
+# Build results
+[Bb]in/
+[Oo]bj/
+[Ll]og/
+[Ll]ogs/
+out/
+nupkg/
+*.nupkg
+*.snupkg
+
+# User-specific files
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+*.userprefs
+
+# Visual Studio & VS Code
+.vs/
+.vscode/
+.idea/
+
+# Test results
+TestResults/
+*.coverage
+*.coveragexml
+*.trx
+
+# Compiled binaries
+*.dll
+*.exe
+*.pdb
+*.cache
+*.tmp
+
+# NuGet
+*.nuget.props
+*.nuget.targets
+.nuget/
+packages/
+.nuget/packages/
+
+# Environment & config files
+.env
+.env.*
+appsettings.Development.json
+appsettings.Local.json
+secrets.json
+
+# Logs
+*.log
+logs/
+log/
+
+# Docker
+**/docker-compose.override.yml
+**/docker-compose.local.yml
+docker-compose*.yaml
+docker-compose*.yml
+Dockerfile.*
+*.pid
+*.tar
+**/.docker/
+.dockerignore
+
+# EF Core Migrations (optional — uncomment if you auto-generate snapshots)
+# Migrations/ModelSnapshot.cs
+
+# OS-generated files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# GitHub Actions / CI
+!/.github/
+!/.github/workflows/
+
+# Temporary & backup files
+*.bak
+*.old
+*.orig
+*.rej
