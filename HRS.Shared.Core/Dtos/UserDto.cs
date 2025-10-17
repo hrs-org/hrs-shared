@@ -1,4 +1,4 @@
-namespace HRS.Shared.Core.Dtos.User;
+namespace HRS.Shared.Core.Dtos;
 
 public abstract class UserResponseDto
 {

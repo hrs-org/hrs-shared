@@ -1,5 +1,5 @@
 using System.Threading.Tasks;
-using HRS.Shared.Core.Dtos.User;
+using HRS.Shared.Core.Dtos;
 
 namespace HRS.Shared.Core.Interfaces;
 #nullable enable
