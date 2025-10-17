@@ -1,6 +1,6 @@
 using System.Collections.Generic;
 
-namespace HRS.Shared.Core.Dtos.Package;
+namespace HRS.Shared.Core.Dtos;
 #nullable enable
 
 public class PackageItemResponseDto
