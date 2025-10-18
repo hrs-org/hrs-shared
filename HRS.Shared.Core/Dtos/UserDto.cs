@@ -1,6 +1,6 @@
 namespace HRS.Shared.Core.Dtos;
 
-public abstract class UserResponseDto
+public class UserResponseDto
 {
     public int Id { get; set; }
     public required string FirstName { get; set; }
