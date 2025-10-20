@@ -7,6 +7,7 @@ namespace HRS.Shared.Core.Interfaces;
 public interface IUserContextService
 {
     int GetUserId();
+    int GetStoreId();
     string? GetEmail();
     Task<UserResponseDto> GetUserAsync();
 }
