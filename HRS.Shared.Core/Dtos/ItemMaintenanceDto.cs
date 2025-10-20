@@ -2,6 +2,7 @@ using System.ComponentModel.DataAnnotations;
 using HRS.Shared.Core.Enums;
 
 namespace HRS.Shared.Core.Dtos;
+#nullable enable
 
 public sealed class CreateItemMaintenanceRequestDto
 {
@@ -17,7 +18,7 @@ public class FixItemMaintenanceRequestDto
 {
     [Required] public string Id { get; set; } = string.Empty;
     [Required] public int QuantityFixed { get; set; }
-    public string Remarks { get; set; }
+    public string? Remarks { get; set; }
 }
 
 public class ItemMaintenanceResponseDto
