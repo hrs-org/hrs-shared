@@ -1,3 +1,4 @@
+using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 using HRS.Shared.Core.Enums;
 
@@ -29,4 +30,9 @@ public class ItemMaintenanceResponseDto
     public int Quantity { get; set; }
     public int? QuantityFixed { get; set; }
     public string Remarks { get; set; } = string.Empty;
+}
+
+public class CreateItemMaintenanceBatchRequestDto
+{    
+    public List<CreateItemMaintenanceRequestDto> Entries { get; set; } = new();
 }
