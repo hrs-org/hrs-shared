@@ -10,7 +10,6 @@ public sealed class CreateItemMaintenanceRequestDto
     [Required] public required string RentalOrderId { get; set; }
     public ItemMaintenanceType Type { get; set; }
     public int Quantity { get; set; }
-    public int CreatedById { get; set; }
     public string? Remarks { get; set; }
 }
 
