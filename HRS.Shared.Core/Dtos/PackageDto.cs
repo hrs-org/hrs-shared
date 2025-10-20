@@ -29,6 +29,4 @@ public class PackageResponseDto
 
     public ICollection<PackageItemResponseDto>? Items { get; set; }
     public ICollection<PackageRateResponseDto>? Rates { get; set; }
-    public DateTime CreatedAt { get; set; }
-    public DateTime UpdatedAt { get; set; }
 }
