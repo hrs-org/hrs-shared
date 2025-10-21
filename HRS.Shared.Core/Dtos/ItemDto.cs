@@ -17,7 +17,7 @@ public class ItemResponseDto
     public string StoreId { get; set; } = string.Empty;
 }
 
-public abstract class ItemRateResponseDto
+public class ItemRateResponseDto
 {
     public string Id { get; set; } = string.Empty;
     public int MinDays { get; set; }
