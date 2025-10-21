@@ -5,7 +5,7 @@ using HRS.Shared.Core.Enums;
 namespace HRS.Shared.Core.Dtos;
 #nullable enable
 
-public sealed class CreateItemMaintenanceRequestDto
+public class CreateItemMaintenanceRequestDto
 {
     [Required] public required string ItemId { get; set; }
     [Required] public required string RentalOrderId { get; set; }

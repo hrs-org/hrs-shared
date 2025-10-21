@@ -27,6 +27,6 @@ public class PackageResponseDto
     public string? Description { get; set; }
     public decimal BasePrice { get; set; }
 
-    public ICollection<PackageItemResponseDto>? Items { get; set; }
-    public ICollection<PackageRateResponseDto>? Rates { get; set; }
+    public List<PackageItemResponseDto>? Items { get; set; }
+    public List<PackageRateResponseDto>? Rates { get; set; }
 }

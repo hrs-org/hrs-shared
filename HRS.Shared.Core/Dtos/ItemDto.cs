@@ -11,8 +11,8 @@ public class ItemResponseDto
     public string Description { get; set; } = string.Empty;
     public int Quantity { get; set; }
     public decimal Price { get; set; }
-    public ICollection<ItemRateResponseDto>? Rates { get; set; }
-    public ICollection<ItemResponseDto>? Children { get; set; }
+    public List<ItemRateResponseDto>? Rates { get; set; }
+    public List<ItemResponseDto>? Children { get; set; }
     public bool HasChildren => Children?.Count > 0;
     public string StoreId { get; set; } = string.Empty;
 }
