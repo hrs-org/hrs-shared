@@ -33,6 +33,6 @@ public class ItemMaintenanceResponseDto
 }
 
 public class CreateItemMaintenanceBatchRequestDto
-{    
+{
     public List<CreateItemMaintenanceRequestDto> Entries { get; set; } = new();
 }
