@@ -5,5 +5,6 @@ public enum UserRole
     Customer = 0,
     Employee = 1,
     Manager = 2,
-    Admin = 3
+    Owner = 3,
+    Admin = 4
 }
