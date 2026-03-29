@@ -31,7 +31,7 @@ jobs:
         run: dotnet restore HRS.Shared.Core/HRS.Shared.Core.csproj
 
       - name: Build
-        run: dotnet build HRS.Shared.Core/HRS.Shared.Core.csproj --configuration Release --no-restore /p:Version=$PACKAGE_VERSION
+        run: dotnet build HRS.Shared.Core/HRS.Shared.Core.csproj --configuration Release --no-restore /p:Version=$PACKAGE_VERSION /p:PackageVersion=$PACKAGE_VERSION
 
       - name: Pack
         run: dotnet pack HRS.Shared.Core/HRS.Shared.Core.csproj --configuration Release --no-build -o ./nupkg /p:PackageVersion=$PACKAGE_VERSION
